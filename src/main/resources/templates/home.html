@@ -3,14 +3,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Spring boot home page</title>
+<style type="text/css">
+	h3{
+		display: inline-block;
+	}
+</style>
 </head>
 <body>
-	<h3 th:text="${employeeName}"></h3><br>
-	<h3 th:text="${age}"></h3><br>
-	<h3 th:text="${department}"></h3><br>
-	<h3 th:text="${gender}"></h3><br>
-	<h3 th:text="${startDate}"></h3><br>
-	<h3 th:text="${endDate}"></h3>
+	Employee name: <h3 th:text="${employeeName}"></h3><br>
+	Age :<h3 th:text="${age}"></h3><br>
+	Department Name is : <h3 th:text="${department}"></h3><br>
+	Gender is : <h3 th:text="${gender}"></h3><br>
+	Start Date is : <h3 th:text="${startDate}"></h3><br>
+	EndDate is : <h3 th:text="${endDate}"></h3><br>
 	
 	
 </body>
