@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Error File</title>
+<style type="text/css">
+	h3{
+		color : red;
+	}
+	.form{
+		margin:auto;
+	}
+</style>
+</head>
+<body>
+	<div class="form">
+		<h3>Your Registration is not valid!Please go back to Registration
+			Page</h3>
+		<a th:href="@{/register}">Go Back!</a>
+	</div>
+</body>
+</html>

@@ -10,13 +10,14 @@
 </style>
 </head>
 <body>
-	Employee name: <h3 th:text="${employeeName}"></h3><br>
-	Age :<h3 th:text="${age}"></h3><br>
-	Department Name is : <h3 th:text="${department}"></h3><br>
-	Gender is : <h3 th:text="${gender}"></h3><br>
-	Start Date is : <h3 th:text="${startDate}"></h3><br>
-	EndDate is : <h3 th:text="${endDate}"></h3><br>
+<h3>従業員確認画面</h3><br>
+	名前 : <h3 th:text="${employeeName}"></h3><br>
+	年齢 : <h3 th:text="${age}"></h3>才<br>
+	部署 : <h3 th:text="${department}"></h3><br>
+	性別 : <h3 th:text="${gender}"></h3><br>
+	入社年月日 : <h3 th:text="${startDate}"></h3><br>
+	退社年月日 : <h3 th:text="${endDate}"></h3><br>
 	
-	
+<a th:href="@{/register}">入力画面</a>
 </body>
 </html>
